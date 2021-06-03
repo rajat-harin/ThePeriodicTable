@@ -1,0 +1,32 @@
+.titlePanel{
+    width: 100%;
+    align-content: center;
+}
+#title{
+    align-self: center;
+    align-content: center;
+    letter-spacing: 10px;
+    font-size: 50px;
+}
+.blank-cells{
+    border: none;
+}
+.z-num{
+    font-size: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.amu{
+    width: 25px;
+    font-size: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.symbol{
+    font-size: 30px;
+    font-weight: bold;
+}
+.name{
+    font-size: 10px;
+    font-style: italic;
+}
