@@ -1,0 +1,112 @@
+.titlePanel{
+    width: 100%;
+    align-content: center;
+}
+#title{
+    align-self: center;
+    align-content: center;
+    letter-spacing: 10px;
+    font-size: 50px;
+}
+.blank-cells{
+    border: none;
+}
+.z-num{
+    font-size: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.z-num-lg{
+    align-self: flex-start;
+    font-size: 25px;
+    width: 40px;
+}
+.amu{
+    width: 25px;
+    font-size: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.amu-lg{
+    align-self:flex-end;
+    width: 40px;
+    font-size: 25px;
+}
+.symbol{
+    font-size: 30px;
+    font-weight: bold;
+}
+.symbol-lg{
+    font-size: 80px;
+    font-weight: bold;
+}
+.name{
+    font-size: 10px;
+    font-style: italic;
+}
+.name-lg{
+    font-size: 25px;
+    font-style: italic;
+}
+
+.alkali-metal{
+    background-color: #86003c;
+}
+.noble-gas{
+    background-color: #301b3f;
+}
+.alkaline-earth-metal{
+    background-color: #99825a;
+}
+.diatomic-nonmetal{
+    background-color: #3c415c;
+}
+.metalloid{
+    background-color: #6b6f96;
+}
+.polyatomic-nonmetal{
+    background-color: #3c415c;
+}
+.lanthanide{
+    background-color: #126b5f;
+}
+.actinide{
+    background-color: #295e41;
+}
+.transition-metal{
+    background-color: #b4a5a5;
+}
+.post-transition-metal{
+    background-color: #62869b;
+}
+
+.center{
+    text-align: center !important;
+    align-content: center !important;
+}
+.element-block{
+    border: 1px solid white;
+    height: 200px;
+    width: 150px;
+    margin: auto;
+    padding: 10px;
+}
+.container{
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+.details{
+    margin: auto;
+    padding: 10px;
+    width: 90%;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #0e0e0e;
+    font-family: monospace;
+    font-size: large;
+}

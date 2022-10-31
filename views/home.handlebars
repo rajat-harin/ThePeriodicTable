@@ -1,0 +1,26 @@
+<div class="row" id="container-row" onmouseover="typeWriter()">
+    <div class="col-sm-12 container">
+        <div class="element-block {{catToClass element.category}}">
+            <div class="element">
+                <div class="row">
+                    <div class="column z-num-lg">{{element.number}}</div>
+                    <div class="column amu-lg">{{toPrecision element.atomic_mass}}</div>
+                </div>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col symbol-lg">{{element.symbol}}</div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col name-lg">{{element.name}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<div class="details" id="details" hidden>
+ {{toStringFormatted element}}
+</div>
