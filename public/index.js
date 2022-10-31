@@ -8,7 +8,7 @@ xhttp.onreadystatechange = function () {
     }
 };
 
-xhttp.open("GET", "http://localhost:8080/data", true);
+xhttp.open("GET", "https://periodic-table-node.herokuapp.com/data", true);
 xhttp.send();
 
 //loader functions
@@ -165,5 +165,5 @@ const cellBackground = (category,cell) => {
 const getDataforId = (e)=>{
     let num = e.children[0].children[0].children[0].innerHTML;
     //Data call
-    location.href = "http://localhost:5000/element/"+num;
+    location.href = "https://periodic-table-node.herokuapp.com/element/"+num;
 }
