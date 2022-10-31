@@ -1,1 +1,6 @@
 theme: jekyll-theme-cayman
+plugins:
+  - jemoji
+domain: https://rajat-harin.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://rajat-harin.github.io/ThePeriodicTable/  # the base hostname and protocol for your site, e.g. http://example.com
+baseurl: /ThePeriodicTable/public      # place folder name if the site is served in a subfolder
