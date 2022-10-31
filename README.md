@@ -7,4 +7,4 @@ please do visit the repo for further info on periodic table json data
 ## In case this page is showing only readme file please click below link
 [IndexPage](https://rajat-harin.github.io/ThePeriodicTable/public/index.html)
 
-### Thnak ypu for visiting!
+### Thanks for visiting!
