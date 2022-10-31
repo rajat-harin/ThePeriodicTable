@@ -8,7 +8,7 @@ xhttp.onreadystatechange = function () {
     }
 };
 
-xhttp.open("GET", "http://localhost:5000/data", true);
+xhttp.open("GET", "http://localhost:8080/data", true);
 xhttp.send();
 
 //loader functions
