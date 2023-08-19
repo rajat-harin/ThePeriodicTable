@@ -8,7 +8,7 @@ xhttp.onreadystatechange = function () {
     }
 };
 
-xhttp.open("GET", "https://periodic-table-node.herokuapp.com/data", true);
+xhttp.open("GET", "https://theperiodictable.onrender.com/data", true);
 xhttp.send();
 
 //loader functions
@@ -165,5 +165,5 @@ const cellBackground = (category,cell) => {
 const getDataforId = (e)=>{
     let num = e.children[0].children[0].children[0].innerHTML;
     //Data call
-    location.href = "https://periodic-table-node.herokuapp.com/element/"+num;
+    location.href = "https://theperiodictable.onrender.com/element/"+num;
 }
